@@ -1,0 +1,180 @@
+.video-container{
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+}
+.video{
+    width: 60%;
+    display: flex;
+    padding-top: 60px;
+    flex-direction: column;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.video-related{
+    width: 40%;
+    margin-top: 70px;
+    
+}
+.iframe{
+    width: 80%;
+}
+.iframe iframe{
+    border-radius: 10px;
+    width: 100%;
+    border: 1px solid black;
+}
+.description{
+     width: 80%;
+
+}
+.channel{
+    margin-top: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+.subscribe{
+    margin-right: 200px;
+ 
+}
+.subscribe button{
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    
+}
+.liking{
+    display: flex;
+    float: right;
+
+}
+.liking img{
+    height: 25px;
+    width: 25px;
+    margin: 0 10px;
+}
+.profile {
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+.prof{
+    width: 100px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.82);
+    margin-top: 10px;
+}
+.profil{
+    width: 55px;
+    height: 45px;
+    margin-right: 10px;
+
+}
+.profile img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+.desc{
+    width: 80%;
+    margin-top: 20px;
+}
+.spans{
+    font-weight: bold;
+}
+.video-related{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.related-vid{
+    display: flex;
+    flex-direction: row;
+    
+}
+.related-vid .related-iframe{
+    width: 50%;
+}
+.related-iframe iframe{
+    width: 98%;
+    height: 120px;
+    border-radius: 15px;
+    outline: none;
+    border: 1px solid black;
+}
+.related-description .title{
+    font-size: 14px;
+    padding: 10px 4px;
+
+}
+.related-description .channel-name{
+    font-weight: 600;
+    padding: 2px 10px;
+    color: rgb(125, 115, 115);
+}
+.related-trading{
+    font-size: 12px;
+    font-weight: 600;
+    color: gray;
+}
+.comment{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    width: 80%;
+}
+.single-comment{
+    display: flex;
+    margin-top: 10px;
+}
+.comment-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    padding: 10px 6px;
+    border-radius: 10px;
+    background-color: rgb(243, 240, 240);
+}
+.single-comment .comment-profile .image{
+    width: 40px;
+    height: 40px;
+    
+}
+.single-comment .comment-profile img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.impression{
+    display: flex;
+    padding-top: 10px;
+    
+}
+.impression img{
+    width: 25px;
+    margin-top: 2px;
+    margin-right: 10px;
+
+}
+.channel-name-comment{
+    padding-bottom: 6px;
+}
+.channelsub{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.664);
+}
